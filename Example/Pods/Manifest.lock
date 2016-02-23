@@ -1,0 +1,14 @@
+PODS:
+  - CameraLevel (0.1.0)
+
+DEPENDENCIES:
+  - CameraLevel (from `../`)
+
+EXTERNAL SOURCES:
+  CameraLevel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CameraLevel: 3220a73e6910bbfba49da1ac7f9266d8f4ad5ce8
+
+COCOAPODS: 0.39.0

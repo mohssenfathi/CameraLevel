@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B123D71C7C975600C95C38 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B123D61C7C975600C95C38 /* CameraViewController.m */; };
+		45B123DF1C7C97EF00C95C38 /* CameraLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B123DE1C7C97EF00C95C38 /* CameraLevel.m */; };
+		45BE169C1C7CA52A00B52EF3 /* SliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE16991C7CA52A00B52EF3 /* SliderCell.m */; };
+		45BE169D1C7CA52A00B52EF3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE169B1C7CA52A00B52EF3 /* SettingsViewController.m */; };
+		45BE16A41C7CAB8E00B52EF3 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE16A31C7CAB8E00B52EF3 /* GradientView.m */; };
+		45BE16A91C7CB63800B52EF3 /* RangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE16A71C7CB63800B52EF3 /* RangeSlider.m */; };
+		45BE16AA1C7CB63800B52EF3 /* RangeSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BE16A81C7CB63800B52EF3 /* RangeSlider.xib */; };
+		45BE16AD1C7CC2A500B52EF3 /* ColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE16AC1C7CC2A500B52EF3 /* ColorSlider.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MFAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* MFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MFViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -36,6 +43,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45B123D51C7C975600C95C38 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		45B123D61C7C975600C95C38 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		45B123DD1C7C97EF00C95C38 /* CameraLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraLevel.h; path = ../../Pod/Classes/CameraLevel.h; sourceTree = "<group>"; };
+		45B123DE1C7C97EF00C95C38 /* CameraLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraLevel.m; path = ../../Pod/Classes/CameraLevel.m; sourceTree = "<group>"; };
+		45BE16981C7CA52A00B52EF3 /* SliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderCell.h; sourceTree = "<group>"; };
+		45BE16991C7CA52A00B52EF3 /* SliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderCell.m; sourceTree = "<group>"; };
+		45BE169A1C7CA52A00B52EF3 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		45BE169B1C7CA52A00B52EF3 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		45BE16A21C7CAB8E00B52EF3 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		45BE16A31C7CAB8E00B52EF3 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		45BE16A61C7CB63800B52EF3 /* RangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangeSlider.h; sourceTree = "<group>"; };
+		45BE16A71C7CB63800B52EF3 /* RangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RangeSlider.m; sourceTree = "<group>"; };
+		45BE16A81C7CB63800B52EF3 /* RangeSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RangeSlider.xib; sourceTree = "<group>"; };
+		45BE16AB1C7CC2A500B52EF3 /* ColorSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSlider.h; sourceTree = "<group>"; };
+		45BE16AC1C7CC2A500B52EF3 /* ColorSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSlider.m; sourceTree = "<group>"; };
 		5AAACBF7894F391A2FE51F7D /* Pods-CameraLevel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraLevel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CameraLevel_Example/Pods-CameraLevel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CameraLevel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraLevel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,8 +69,6 @@
 		6003F59B195388D20070C39A /* CameraLevel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraLevel-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* MFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* MFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* MFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* MFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* CameraLevel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraLevel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -104,6 +124,50 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		45B123DC1C7C97DA00C95C38 /* CameraLevel */ = {
+			isa = PBXGroup;
+			children = (
+				45B123DD1C7C97EF00C95C38 /* CameraLevel.h */,
+				45B123DE1C7C97EF00C95C38 /* CameraLevel.m */,
+			);
+			name = CameraLevel;
+			sourceTree = "<group>";
+		};
+		45BE16971C7CA52A00B52EF3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				45BE16A51C7CB63800B52EF3 /* RangeSlider */,
+				45BE16A21C7CAB8E00B52EF3 /* GradientView.h */,
+				45BE16A31C7CAB8E00B52EF3 /* GradientView.m */,
+				45BE16981C7CA52A00B52EF3 /* SliderCell.h */,
+				45BE16991C7CA52A00B52EF3 /* SliderCell.m */,
+				45BE169A1C7CA52A00B52EF3 /* SettingsViewController.h */,
+				45BE169B1C7CA52A00B52EF3 /* SettingsViewController.m */,
+				45BE16AB1C7CC2A500B52EF3 /* ColorSlider.h */,
+				45BE16AC1C7CC2A500B52EF3 /* ColorSlider.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		45BE169E1C7CA53000B52EF3 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				45B123D51C7C975600C95C38 /* CameraViewController.h */,
+				45B123D61C7C975600C95C38 /* CameraViewController.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		45BE16A51C7CB63800B52EF3 /* RangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				45BE16A61C7CB63800B52EF3 /* RangeSlider.h */,
+				45BE16A71C7CB63800B52EF3 /* RangeSlider.m */,
+				45BE16A81C7CB63800B52EF3 /* RangeSlider.xib */,
+			);
+			path = RangeSlider;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -141,12 +205,13 @@
 		6003F593195388D20070C39A /* Example for CameraLevel */ = {
 			isa = PBXGroup;
 			children = (
+				45BE169E1C7CA53000B52EF3 /* Camera */,
+				45BE16971C7CA52A00B52EF3 /* Settings */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F59C195388D20070C39A /* MFAppDelegate.h */,
 				6003F59D195388D20070C39A /* MFAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* MFViewController.h */,
-				6003F5A6195388D20070C39A /* MFViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				45B123DC1C7C97DA00C95C38 /* CameraLevel */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for CameraLevel";
@@ -247,6 +312,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Mohssen Fathi";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = P83X3BG446;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -276,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BE16AA1C7CB63800B52EF3 /* RangeSlider.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -390,9 +459,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B123D71C7C975600C95C38 /* CameraViewController.m in Sources */,
+				45B123DF1C7C97EF00C95C38 /* CameraLevel.m in Sources */,
+				45BE16A41C7CAB8E00B52EF3 /* GradientView.m in Sources */,
 				6003F59E195388D20070C39A /* MFAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* MFViewController.m in Sources */,
+				45BE169D1C7CA52A00B52EF3 /* SettingsViewController.m in Sources */,
+				45BE16A91C7CB63800B52EF3 /* RangeSlider.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				45BE16AD1C7CC2A500B52EF3 /* ColorSlider.m in Sources */,
+				45BE169C1C7CA52A00B52EF3 /* SliderCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraLevel/CameraLevel-Prefix.pch";
 				INFOPLIST_FILE = "CameraLevel/CameraLevel-Info.plist";
@@ -529,6 +605,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraLevel/CameraLevel-Prefix.pch";
 				INFOPLIST_FILE = "CameraLevel/CameraLevel-Info.plist";
