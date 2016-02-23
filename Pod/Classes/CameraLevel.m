@@ -19,6 +19,10 @@
             +-----------+               |
                   |                     v  (Roll +) CW
                   v (Pitch -)
+ 
+ 
+ * Yaw not functional, as of yet *
+ 
 */
 @interface CameraLevel() {
     CGFloat rollX;

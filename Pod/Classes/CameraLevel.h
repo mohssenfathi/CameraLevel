@@ -26,12 +26,15 @@
 /* Must be called to update view after changing properties. */
 - (void)redraw;
 
+/* Properties for the inner and outer circles */
 @property (nonatomic) UIColor *circleColor;
 @property (nonatomic) CGFloat  circleWidth;
 
+/* Properties for the 4 tick marks accross the outer circle */
 @property (nonatomic) UIColor *tickColor;
 @property (nonatomic) CGFloat  tickWidth;
 
+/* Properties for the horizontal lines than move vertically */
 @property (nonatomic) UIColor *lineColor;
 @property (nonatomic) CGFloat  lineWidth;
 
