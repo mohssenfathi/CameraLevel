@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<br/>
+
 CameraLevel is a UIView subclass. It can be create with initWithFrame or in Interface Builder
 
 To start and stop the camera receiving accelerometer data, use:
@@ -18,7 +20,9 @@ To start and stop the camera receiving accelerometer data, use:
 
     [self.cameraLevel stop];
 ```
-,respectively.
+, respectively.
+
+<br/>
 
 By default the level sets it's vertical center (for pitch) at the position where the phone is perpendicular to the ground. To set the default center to the devices current position, call:
 
@@ -26,7 +30,10 @@ By default the level sets it's vertical center (for pitch) at the position where
 [self.cameraLevel recenterPitch];
 ```
 
+<br/>
+
 There are a few customizable options for the level:
+<br/>
 The pitch indicator lines:
 
 ```objective-c
@@ -54,6 +61,9 @@ To apply changes made to the levels properties you must call:
 ```
 
 <br/>
+
+![Camera Level](https://github.com/mohssenfathi/CameraLevel/blob/master/Screenshots/level.PNG)
+![Customization](https://github.com/mohssenfathi/CameraLevel/blob/master/Screenshots/settings.PNG)
 
 ## Requirements
 
